@@ -14,8 +14,7 @@ int main(void)
 	printf("Enter order type: ");
 	scanf("%d", &type);
 	
-	printf("Total bill amount: %.2f", calTotalBill(subTotal, calAdditionalCharges(type, subTotal)));
-	
+	printf("Total bill amount: %.2f", calTotalBill(subTotal, calAdditionalCharges(type, subTotal)));	
 }
 
 float calAdditionalCharges(int orderType, float subTotal)
