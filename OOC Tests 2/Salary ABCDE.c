@@ -15,8 +15,7 @@ int main(void)
 	scanf(" %c", &empNum);
 	
 	printf("Bonus: %.2f", findBonus(salary, findBonusTimes(empNum)));
-	
-	
+
 return 0;	
 }
 
