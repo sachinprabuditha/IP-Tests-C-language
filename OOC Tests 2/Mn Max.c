@@ -3,7 +3,6 @@ int main (void)
 {
 	int marks, minMarks, maxMarks;
 	
-	
 	printf("Input Marks: ");
 	scanf("%d", &marks);
 	
