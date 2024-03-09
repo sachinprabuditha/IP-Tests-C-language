@@ -20,13 +20,11 @@ final = totAmount+discount;
 
 displayGift(final);
 
-	
 return 0;	
 }
 
 float calDiscount (int time, float totAmount)
-{
-		
+{	
 	switch(time)
 	{
 		case 16 ... 19:
