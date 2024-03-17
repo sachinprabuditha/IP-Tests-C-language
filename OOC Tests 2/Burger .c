@@ -6,9 +6,7 @@ int main(void)
 		
 		printf("Enter Burger Type : ");
 		scanf("%d", &type);
-		
-		
-		
+			
 while (type<4 && type>0){
 
 		printf("Enter Quantity : ");
