@@ -15,18 +15,15 @@ int main(void)
 			total += (float)round;
 		}
 		
-		
 		avg = total/5;
 		
 		printf("average score - %.1f\n",avg);
 		
 		printf("\nDo you want to enter the scores of another player(y/n)? ");
 	    scanf(" %c", &cont);
-	    i++;
-	    
+	    i++; 
 	}
 	while(cont =='y' || cont =='Y');
-	
 	
 return 0;	
 }
