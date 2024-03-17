@@ -7,9 +7,6 @@ int main(void)
 	printf("Enter item: ");
 	scanf("%d", &item);
 	
-//	printf("Enter Quantity: ");
-//	scanf("%d", &qunty);
-	
 	while (item != -99)
 	{
 		printf("Enter Quantity: ");
