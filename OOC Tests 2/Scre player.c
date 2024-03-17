@@ -19,8 +19,6 @@ int main(void)
 	
 	printf("Do you want to enter the scores of another player(y/n)?");
 	scanf(" %c", &cont);
-}
-	
-	
+}	
 return 0;	  
 }
