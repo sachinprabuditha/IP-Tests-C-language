@@ -16,8 +16,7 @@ int main(void)
 				printf("\tround %d- ",j);
 				scanf("%d", &rounds);
 				
-				total += (float)rounds;
-				
+				total += (float)rounds;		
 			}
 	avg= total/2;
 	printf("\taverage score- %.1f\n\n", avg);
